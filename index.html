@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Food Recommendation</title>
+
+    <style>
+        .custom-text-color {
+            color: #808080;
+        }
+
+        .custom-button-bg {
+            background-color: #808080;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-button-bg:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <section class="container-sm container-fluid mb-3 pb-2 navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg  ">
+            <a class="navbar-brand" href="index.html">CRMAP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bmiCalculate.html">BMI </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dietFood.html">DIET </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="customFood.html"> Food Recommendation </a>
+                    </li>
+
+
+
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="container-sm container-fluid mb-5 pb-2">
+
+            <h1 class="mt-5 text-center custom-text-color">Food & Diet Recommendation</h1>
+        </div>
+    </section>
+
+    <section class="container-sm container-fluid mb-5 pb-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-vector/body-mass-index-weight-control-with-bmi-healthy-unhealthy-lifestyle-flat-vector-illustration-fitness-indicator-before-after-diet-overall-health-body-fat-scale-concept_88138-795.jpg?w=740&t=st=1703097201~exp=1703097801~hmac=ed5545e5fe55fe3b6efdf622f557e48dc3dea79c9a0e013c607e118d42a9592e"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BMI</h5>
+                        <p class="card-text"> It provides a general indication of whether an individual falls
+                            within categories such as underweight helping to
+                            assess potential health risks associated with weight.</p>
+
+                        <a href="bmiCalculate.html"> <button
+                                class="btn  px-4 text-base text-white font-weight-bold  custom-button-bg ">View
+                                Details</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/concept-healthy-food-sports-lifestyle-vegetarian-lunch-healthy-breakfast-proper-nutrition-top-view-flat-lay_2829-6082.jpg?w=740&t=st=1703097449~exp=1703098049~hmac=7f511a54c571d60531e3303e22563e96f7a54edff772c8729c3680dab93fe650"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Diet</h5>
+                        <p class="card-text"> A balanced
+                            diet includes a variety of nutrients essential for the body's proper functioning, promoting
+                            optimal physical and mental health.</p>
+                        <a href="dietFood.html"> <button
+                                class="btn custom-button-bg  px-4 text-base text-white font-weight-bold ">View
+                                Details</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/buddha-bowl-dish-with-vegetables-legumes-top-view_1150-42589.jpg?w=740&t=st=1703097441~exp=1703098041~hmac=6f0cf9d2ad9364cc3793c5d1caf06334a2e9661ffa8697f1c96a36e3e89e8078"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Food</h5>
+                        <p class="card-text">"Custom food" typically refers to food items or meals that are personalized
+                            or tailored to meet specific dietary preferences, restrictions, or nutritional goals. </p>
+                        <a href="customFood.html"> <button
+                                class="btn custom-button-bg  px-4 text-base text-white font-weight-bold ">View
+                                Details</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

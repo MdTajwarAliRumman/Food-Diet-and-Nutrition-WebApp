@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Custom food</title>
+
+    <style>
+        .custom-text-color {
+            color: #808080;
+        }
+
+        .custom-button-bg {
+            background-color: #808080;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-button-bg:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container-sm container-fluid mb-3 pb-2 navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg  ">
+            <a class="navbar-brand" href="index.html">CRMAP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bmiCalculate.html">BMI </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dietFood.html">DIET </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="customFood.html"> Food Recommendation </a>
+                    </li>
+
+
+
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="container-sm container-fluid ">
+            <h1 class="mt-5 text-center custom-text-color">Custom Food Recommendation</h1>
+        </div>
+    </section>
+
+    <section class="container-sm container-fluid">
+        <div>
+            <form action="">
+                <div class="container">
+                    <div class="row g-4 pt-4 mt-2">
+
+                        <div class="col">
+                            <label for="calories" class="form-label">Calories</label>
+                            <input type="text" class="form-control" id="calories" placeholder="calories"
+                                name="calories" />
+                        </div>
+
+                        <div class="col">
+                            <label for="totalFat" class="form-label">Total Fat</label>
+                            <input type="text" class="form-control" id="totalFat" placeholder="Total Fat"
+                                name="totalFat" />
+                        </div>
+
+
+                    </div>
+
+                    <div class="row g-4 pt-4 mb-4 ">
+
+                        <div class="col">
+                            <label for="saturatedFat" class="form-label">Saturated Fat</label>
+                            <input type="text" class="form-control" id="saturatedFat" placeholder="Saturated Fat"
+                                name="saturatedFat" />
+                        </div>
+
+                        <div class="col">
+                            <label for="cholesterol" class="form-label">Cholesterol </label>
+                            <input type="text" class="form-control" id="cholesterol" placeholder="Cholesterol "
+                                name="cholesterol" />
+                        </div>
+
+
+                    </div>
+
+                    <div class="row g-4  mb-4 ">
+                        <div class="col">
+                            <label for="sodium" class="form-label">Sodium</label>
+                            <input type="text" class="form-control" id="sodium" placeholder="Sodium" name="sodium" />
+                        </div>
+
+                        <div class="col">
+                            <label for="calcium" class="form-label">Calcium </label>
+                            <input type="text" class="form-control" id="calcium" placeholder="calcium "
+                                name="calcium" />
+                        </div>
+
+
+                    </div>
+
+                    <div class="row g-4  mb-4 ">
+                        <div class="col-6">
+                            <label for="fat" class="form-label">Fat</label>
+                            <input type="text" class="form-control" id="fat" placeholder="fat" name="fat" />
+                        </div>
+                        <div class="col-6">
+                            <label for="number" class="form-label">Number of recommendations (max-12)</label>
+                            <input type="number" class="form-control" id="number" placeholder="number" name="number" />
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="col-6 ">
+                        <input type="submit" value="Generate Custom Food"
+                            class="btn custom-button-bg px-4 text-base text-white font-weight-bold " />
+                    </div>
+
+                    <!-- <div class="row mt-4">
+                        <div class="col">
+                            <p class="" id="result"></p>
+                        </div>
+                    </div> -->
+
+                    <div id="random" class="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
+
+
+                    </div>
+
+                    <!-- <div>
+                        <a href="index.html"> <button
+                                class="btn btn-warning px-4 text-base text-white font-weight-bold ">Back To
+                                Home</button></a>
+                    </div> -->
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="customFood.js"></script>
+</body>
+
+</html>

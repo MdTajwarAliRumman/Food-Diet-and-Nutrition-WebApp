@@ -1,0 +1,178 @@
+[
+    {
+        "calories": {
+            "min": 0,
+            "max": 500
+        },
+        "totalFat": {
+            "min": 0,
+            "max": 25
+        },
+        "saturatedFat": {
+            "min": 0,
+            "max": 4
+        },
+        "cholesterol": {
+            "min": 0,
+            "max": 100
+        },
+        "sodium": {
+            "min": 0,
+            "max": 700
+        },
+        "calcium": {
+            "min": 0,
+            "max": 100
+        },
+        "fat": {
+            "min": 0,
+            "max": 11
+        },
+        "recFood": {
+            "food1": "Rice Dal lentils Fish curry",
+            "food2": "Khichuri rice and lentil porridge ",
+            "food3": "Paratha layered flatbread Mutton",
+            "food4": "Fruit Smoothie",
+            "food5": "Oatmeal with Berries",
+            "food6": "Grilled Chicken Salad",
+            "food7": "Biryani Keema curry Onion raita",
+            "food8": "Roasted Sweet Potatoes",
+            "food9": "Biryani Chicken curry Mutton curry",
+            "food10": "Shrimp Stir-Fry",
+            "food11": "Roti Gobi paratha Dum aloo",
+            "food12": "Brown Rice and Black Beans"
+        }
+    },
+    {
+        "calories": {
+            "min": 501,
+            "max": 1000
+        },
+        "totalFat": {
+            "min": 26,
+            "max": 100
+        },
+        "saturatedFat": {
+            "min": 5,
+            "max": 8
+        },
+        "cholesterol": {
+            "min": 101,
+            "max": 200
+        },
+        "sodium": {
+            "min": 701,
+            "max": 1400
+        },
+        "calcium": {
+            "min": 101,
+            "max": 200
+        },
+        "fat": {
+            "min": 12,
+            "max": 22
+        },
+        "recFood": {
+            "food1": "Roti flatbread Chicken curry",
+            "food2": "Luchi deep-fried flatbread Aloo dum",
+            "food3": "Shorshe Maach mustard fish Potato mash",
+            "food4": "Chapati Gobi paratha Dum aloo",
+            "food5": "Paratha Baingan masala Rajma chawal",
+            "food6": "Luchi Chholar dal Alur torkari",
+            "food7": "Luchi Aloo posto Chana masala",
+            "food8": "Biryani Chicken rezala ",
+            "food9": "Pineapple raita",
+            "food10": "Radhaballavi Aloo bhaja",
+            "food11": "Aloo bhaja fried potatoes Fish fry",
+            "food12": "Sweet Potato and Black Bean "
+        }
+    },
+    {
+        "calories": {
+            "min": 1001,
+            "max": 1500
+        },
+        "totalFat": {
+            "min": 51,
+            "max": 75
+        },
+        "saturatedFat": {
+            "min": 9,
+            "max": 12
+        },
+        "cholesterol": {
+            "min": 201,
+            "max": 300
+        },
+        "sodium": {
+            "min": 1401,
+            "max": 2100
+        },
+        "calcium": {
+            "min": 201,
+            "max": 300
+        },
+        "fat": {
+            "min": 23,
+            "max": 33
+        },
+        "recFood": {
+            "food1": "Steamed rice Shorshe Ilish Hilsa fish in mustard sauce ",
+            "food2": "Grilled Vegetable and Chickpea Salad",
+            "food3": "Shrimp and Broccoli Stir-Fry",
+            "food4": "Chicken and Brown Rice Casserole",
+            "food5": "Mango and Black Bean Quinoa Salad",
+            "food6": "Tomato khejur chutney",
+            "food7": "Bhindi bhaja fried okra",
+            "food8": "Roti Lauki ke kofte bottle",
+            "food9": "Vegetarian Stir-Fried Noodles",
+            "food10": "tomato gravy Baingan bharta",
+            "food11": "Bhapa Maach steamed fish",
+            "food12": "Cauliflower Fried Rice"
+        }
+    },
+    {
+        "calories": {
+            "min": 1501,
+            "max": 2000
+        },
+        "totalFat": {
+            "min": 76,
+            "max": 100
+        },
+        "saturatedFat": {
+            "min": 13,
+            "max": 16
+        },
+        "cholesterol": {
+            "min": 301,
+            "max": 400
+        },
+        "sodium": {
+            "min": 2101,
+            "max": 2800
+        },
+        "calcium": {
+            "min": 301,
+            "max": 400
+        },
+        "fat": {
+            "min": 34,
+            "max": 44
+        },
+        "recFood": {
+            "food1": "Rice Lau Ghonto bottle gourd curry",
+            "food2": "Shrimp and Avocado Salad",
+            "food3": "Vegetable pulao Chicken rezala Raita",
+            "food4": "Lemon Herb Baked Chicken",
+            "food5": "Mutton biryani Raita Keema",
+            "food6": "Vegetarian Lentil and Spinach Lasagna",
+            "food7": "Roti Bhindi do pyaza Palak paneer",
+            "food8": "Pesto Zucchini Noodles with Grilled Chicken",
+            "food9": "Cajun Spiced Tilapia with Cilantro Lime Rice",
+            "food10": "Chickpea and Sweet Potato Curry",
+            "food11": "Slow-cooked mutton Egg curry",
+            "food12": "Luchi Aloo posto Chana masala"
+        }
+    }
+]
